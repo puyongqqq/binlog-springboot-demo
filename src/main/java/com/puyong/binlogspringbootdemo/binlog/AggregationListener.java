@@ -1,4 +1,4 @@
-package com.puyong.binlogspringbootdemo.binlog.dto;
+package com.puyong.binlogspringbootdemo.binlog;
 
 import com.github.shyiko.mysql.binlog.BinaryLogClient;
 import com.github.shyiko.mysql.binlog.event.Event;
@@ -30,6 +30,5 @@ public class AggregationListener implements BinaryLogClient.EventListener {
         }
 
         log.info("eventData [{}]", event.getData().toString());
-
     }
 }

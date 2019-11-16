@@ -1,7 +1,6 @@
 package com.puyong.binlogspringbootdemo.binlog;
 
 import com.github.shyiko.mysql.binlog.BinaryLogClient;
-import com.puyong.binlogspringbootdemo.binlog.dto.AggregationListener;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
